@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="543px" height="398px" viewBox="0 0 543 398" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-5.52305818%" y1="15.9857933%" x2="57.8005403%" y2="67.2617601%" id="linearGradient-1">
+            <stop stop-color="#FFAE4D" offset="0%"></stop>
+            <stop stop-color="#FF8D4F" offset="53.1329181%"></stop>
+            <stop stop-color="#FF5454" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" fill="url(#linearGradient-1)">
+            <g id="Group-5" transform="translate(-42.000000, -103.000000)">
+                <path d="M0,499 C31.242328,480.049012 50.8328042,450.342058 58.7714286,409.879138 C70.6793651,349.184758 127.146032,203.210931 317.673016,175.168591 C444.691005,156.473698 533.936508,120.108288 585.409524,66.0723634 L605,0 L0,0 L0,499 Z" id="Path-67"></path>
+                <path d="M24,514 C55.242328,495.049012 74.8328042,465.342058 82.7714286,424.879138 C94.6793651,364.184758 151.146032,218.210931 341.673016,190.168591 C468.691005,171.473698 557.936508,135.108288 609.409524,81.0723634 L629,15 L24,15 L24,514 Z" id="Path-67-Copy-2" opacity="0.108212426"></path>
+            </g>
+        </g>
+    </g>
+</svg>

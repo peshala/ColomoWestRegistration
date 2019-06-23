@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="352px" height="352px" viewBox="0 0 352 352" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="96.7509897%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#ED36A2" offset="0%"></stop>
+            <stop stop-color="#D61969" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="236.287921 0.881671348 74.1191713 179.180109 27.0379213 143.433234 0.881671348 143.433234 74.1191713 262.444171 262.444171 0.881671348"></polygon>
+        <filter x="-14.3%" y="-8.6%" width="128.7%" height="128.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.839215686   0 0 0 0 0.0980392157   0 0 0 0 0.411764706  0 0 0 0.406386582 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-536.000000, -145.000000)">
+            <g id="Group" transform="translate(496.000000, 147.000000)">
+                <g id="Group-2" transform="translate(42.000000, 0.000000)">
+                    <circle id="Oval-Copy" stroke="#DB1F75" stroke-width="3" cx="174" cy="174" r="174"></circle>
+                    <g id="emojione-check-mark-copy" transform="translate(40.000000, 35.000000)">
+                        <g id="Icon" transform="translate(7.837079, 7.837079)">
+                            <g id="Icon-Path">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            </g>
+                        </g>
+                        <rect id="ViewBox" fill-rule="nonzero" x="0" y="0" width="279" height="279"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

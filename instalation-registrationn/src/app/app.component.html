@@ -30,15 +30,16 @@
                                         <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
                                         <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
                                     </div>
-                                    <input type="text" placeholder="Name" />
-                                    <input type="email" placeholder="Email" />
-                                    <input type="text" placeholder="Club Name" />
-                                    <input type="text" placeholder="Designation" />
+                                    <input type="text" placeholder="Name" name="name" [(ngModel)]="object.name" />
+                                    <input type="email" placeholder="Email" name="email" [(ngModel)]="object.email" />
+                                    <input type="text" placeholder="Club Name" name="club" [(ngModel)]="object.club" />
+                                    <input type="text" placeholder="Designation" name="designation"
+                                        [(ngModel)]="object.designation" />
                                 </form>
                             </div>
                         </div>
                         <div class="social-btn-container">
-                            <div class="action-btn " (click)="register()">
+                            <div class="action-btn " (click)="register()" aria-disabled="loader">
                                 <a class="btn">
                                     Register
                                 </a>
@@ -68,10 +69,10 @@
                             See now wasn’t that easy ?
                         </div>
                         <div class="project-tagline">
-                            Enjoy the Instalatio
+                            Enjoy the Instalation
                         </div>
                         <div class="project-tagline userName">
-                            sahan
+                            {{object.name}}
                         </div>
                     </div>
 
