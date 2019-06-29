@@ -16,7 +16,7 @@
                     <div class="project-section">
                         <div class="brand-logos">
                             <div class="logo-items">
-                                <img src="../assets/images/clubLogo.svg" alt="">
+                                <img src="../assets/images/logo.png" alt="">
                             </div>
                         </div>
                         <div class="project-tagline">
@@ -32,6 +32,8 @@
                                     </div>
                                     <input type="text" placeholder="Name" name="name" [(ngModel)]="object.name" />
                                     <input type="email" placeholder="Email" name="email" [(ngModel)]="object.email" />
+                                    <input type="numbber" placeholder="Phone Number" name="Phonne Number"
+                                        [(ngModel)]="object.number" />
                                     <input type="text" placeholder="Club Name" name="club" [(ngModel)]="object.club" />
                                     <input type="text" placeholder="Designation" name="designation"
                                         [(ngModel)]="object.designation" />
@@ -69,7 +71,7 @@
                             See now wasn’t that easy ?
                         </div>
                         <div class="project-tagline">
-                            Enjoy the Instalation
+                            Enjoy the Installation
                         </div>
                         <div class="project-tagline userName">
                             {{object.name}}

@@ -15,6 +15,7 @@ export class AppComponent implements OnInit {
   object = {
     name: '',
     email: '',
+    number: '',
     club: '',
     designation: ''
   };
