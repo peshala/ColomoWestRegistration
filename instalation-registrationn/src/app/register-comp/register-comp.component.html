@@ -1,0 +1,84 @@
+<section id="fullpage">
+  <div class="loading" *ngIf="loader">Loading&#8230;</div>
+  <div class="app--header section">
+    <div class="app--header-slider">
+
+      <div class="full-section grey">
+
+        <div class="main-image-holder left">
+          <img src="../../assets/images/leftTop.svg" alt="">
+        </div>
+        <div class="main-image-holder right">
+          <img src="../../assets/images/rightBottom.svg" alt="">
+        </div>
+
+        <div class="register-container" *ngIf="!registered">
+          <div class="project-section">
+            <div class="brand-logos">
+              <div class="logo-items">
+                <img src="../assets/images/logo.png" alt="">
+              </div>
+            </div>
+            <div class="project-tagline">
+              Welcome
+            </div>
+            <div class="form-group">
+              <div class="form-container sign-up-container">
+                <form action="#">
+                  <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                  <input type="text" placeholder="Name" name="name" [(ngModel)]="object.name" />
+                  <input type="email" placeholder="Email" name="email" [(ngModel)]="object.email" />
+                  <input type="numbber" placeholder="Phone Number" name="Phonne Number" [(ngModel)]="object.number" />
+                  <input type="text" placeholder="Club Name" name="club" [(ngModel)]="object.club" />
+                  <input type="text" placeholder="Designation" name="designation" [(ngModel)]="object.designation" />
+                </form>
+              </div>
+            </div>
+            <div class="social-btn-container">
+              <div class="action-btn " (click)="register()" aria-disabled="loader">
+                <a class="btn">
+                  Register
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-tagline-bottom">
+            Why stay in <span> queue? </span>
+          </div>
+          <div class="project-tagline-bottom">
+            let's <span> do</span> it
+            <span> differently</span>
+          </div>
+        </div>
+
+        <div class="response-section" *ngIf="registered">
+
+          <div class="project-section">
+            <div class="checkbox">
+              <img src="../assets/images/chheckbox.svg" alt="">
+            </div>
+            <div class="oops-text">
+              <!-- Opps! Dont close this yet
+                          Show This And Enter The Hall -->
+            </div>
+            <div class="see-text">
+              See now wasn’t that easy ?
+            </div>
+            <div class="project-tagline">
+              Enjoy the Installation
+            </div>
+            <div class="project-tagline userName">
+              {{object.name}}
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

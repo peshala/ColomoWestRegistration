@@ -1,0 +1,61 @@
+<section id="fullpage">
+  <div class="loading" *ngIf="loader">Loading&#8230;</div>
+  <div class="app--header section">
+    <div class="app--header-slider">
+
+      <div class="full-section grey">
+
+        <div class="main-image-holder left">
+          <img src="../../assets/images/leftTop.svg" alt="">
+        </div>
+        <div class="main-image-holder right">
+          <img src="../../assets/images/rightBottom.svg" alt="">
+        </div>
+
+        <div class="register-container">
+          <div class="project-section">
+            <div class="brand-logos">
+              <div class="logo-items">
+                <img src="../assets/images/logo.png" alt="">
+              </div>
+            </div>
+            <div class="project-tagline">
+              Welcome
+            </div>
+            <div class="form-group">
+              <div class="form-container sign-up-container">
+                <form action="#">
+                  <input type="numbber" placeholder="Phone Number" name="Phonne Number" [(ngModel)]="object.number" />
+                </form>
+              </div>
+            </div>
+            <div class="social-btn-container">
+              <div class="action-btn " (click)="check()" aria-disabled="loader">
+                <a class="btn">
+                  Check
+                </a>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="!registered">
+            <div class="project-tagline-bottom">
+              Registered
+            </div>
+          </div>
+          <div *ngIf="registered">
+            <div class="project-tagline-bottom">
+              Not Registered
+            </div>
+            <div class="project-tagline-bottom">
+              <div class="action-btn ">
+                <a class="btn">
+                  register now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,13 +1,12 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-register-comp',
+  templateUrl: './register-comp.component.html',
+  styleUrls: ['./register-comp.component.scss']
 })
-
-export class AppComponent implements OnInit {
+export class RegisterCompComponent implements OnInit {
   gscriptUrl = '/macros/s/AKfycbwZSM9uPJCyKKhVLPig9OL3FJEJkfGCup2Mgxy5tHOZyjgJo3o/exec';
   registered = false;
   loader = false;
