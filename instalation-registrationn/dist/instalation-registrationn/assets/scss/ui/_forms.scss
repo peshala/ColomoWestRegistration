@@ -7,8 +7,12 @@ form {
 	height: 100%;
 	text-align: center;
 	padding: 40px;
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
 	@media screen and (max-width: 425px) {
 		padding: 30px;
+		max-width: 100%;
 	}
 }
 

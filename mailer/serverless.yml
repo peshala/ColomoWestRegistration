@@ -1,0 +1,17 @@
+service: west-mailer-service # NOTE: update this with your service name
+app: mailer
+
+provider:
+  name: aws
+  profile: smokingdots
+  runtime: nodejs8.10
+  region: ap-southeast-1
+
+functions:
+  mailer:
+    handler: handler.mailer
+    events:
+      - http:
+          path: mailer
+          method: post
+          cors: true

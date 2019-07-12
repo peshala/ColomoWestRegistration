@@ -1,5 +1,5 @@
 <section id="fullpage">
-  <div class="loading" *ngIf="loader">Loading&#8230;</div>
+  <div class="loading" *ngIf="loading">Loading&#8230;</div>
   <div class="app--header section">
     <div class="app--header-slider">
 
@@ -25,33 +25,31 @@
             <div class="form-group">
               <div class="form-container sign-up-container">
                 <form action="#">
-                  <input type="numbber" placeholder="Phone Number" name="Phonne Number" [(ngModel)]="object.number" />
+                  <input type="string" placeholder="Phone Number" name="Phone Number" [(ngModel)]="searchKey"
+                    (keyup)="search()" />
+                  <button class="btn" (click)="refresh()">Refresh</button>
                 </form>
               </div>
             </div>
             <div class="social-btn-container">
-              <div class="action-btn " (click)="check()" aria-disabled="loader">
+              <!-- <div class="action-btn " (click)="check()" aria-disabled="loader">
                 <a class="btn">
                   Check
                 </a>
-              </div>
+              </div> -->
             </div>
           </div>
-          <div *ngIf="!registered">
+          <div *ngIf="loading">
+
+          </div>
+          <div *ngIf="registered && !loading">
             <div class="project-tagline-bottom">
               Registered
             </div>
           </div>
-          <div *ngIf="registered">
+          <div *ngIf="!registered && !loading">
             <div class="project-tagline-bottom">
               Not Registered
-            </div>
-            <div class="project-tagline-bottom">
-              <div class="action-btn ">
-                <a class="btn">
-                  register now
-                </a>
-              </div>
             </div>
           </div>
         </div>
